@@ -1,0 +1,10 @@
+var ENGINE_PATH = window.location.href.substring(0, window.location.href.lastIndexOf("/"));
+console.log("ENGINE_PATH = " + ENGINE_PATH);
+document.write('<script type="text/javascript" src="'+ENGINE_PATH+'/utils/GGlobal.js"></script> ');
+document.write('<script type="text/javascript" src="'+ENGINE_PATH+'/utils/PageProperty.js"></script> ');
+document.write('<script type="text/javascript" src="'+ENGINE_PATH+'/events/GEvent.js"></script> ');
+document.write('<script type="text/javascript" src="'+ENGINE_PATH+'/events/GMouseEvent.js"></script> ');
+document.write('<script type="text/javascript" src="'+ENGINE_PATH+'/render/GLoader.js"></script> ');
+document.write('<script type="text/javascript" src="'+ENGINE_PATH+'/render/GSprite.js"></script> ');
+document.write('<script type="text/javascript" src="'+ENGINE_PATH+'/render/GBitmap.js"></script> ');
+document.write('<script type="text/javascript" src="'+ENGINE_PATH+'/render/GBitmapData.js"></script> ');
